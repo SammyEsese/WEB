@@ -1,0 +1,71 @@
+.contact-form{
+ 
+  display: flex;
+  height: 400px;
+  margin-top: 70px;
+  background-color: blue;
+  padding-top: 20px;
+}
+
+
+.c-right{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.w-left{
+  margin-top: -30rem;
+}
+
+.c-right>form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+ 
+}
+
+.c-right .user{
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3rem;
+  outline: none;
+  border: 2px red;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-right: 1000px;
+}
+
+textarea{
+  height: 4rem! important;
+}
+
+.awesome{
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 240%;
+}
+
+.ton{
+  width: 100px;
+  margin-right: 1000px;
+}
+
+.ton:hover{
+  background-color: black;
+  border-color: aliceblue;
+}
+
+@media screen and (max-width: 480px) {
+  
+  .awesome{
+    margin-top: 350%;
+  }
+  .contact-form{
+    margin-top: 40%;
+  }
+    
+    }

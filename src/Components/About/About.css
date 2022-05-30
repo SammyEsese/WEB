@@ -1,0 +1,97 @@
+.about{
+  /*background-color: blue; */
+  margin-top: 26%;
+  height: 300px;
+ 
+  
+}
+.services{
+  margin-top: -6%;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-left: -300px;
+  color: red;
+  font-style: inherit;
+  
+}
+
+.h1{
+  color: blue;
+}
+
+.h2{
+  color: yellow;
+}
+
+.welcome{
+  width: 550px;
+  height: 230px;
+  background-color: rgb(207, 10, 148);
+  margin-top: 4%;
+  padding-top: 40px;
+  padding-right:10px ;
+  border-radius: 30px;
+  color: black;
+  font-size: xx-large;
+  font-weight: 1000;
+  justify-content: center;
+ 
+  
+}
+
+.front-end{
+background-color: green;
+width: 570px;
+height: 250px;
+margin-left: 650px;
+margin-top: -13%;
+border-radius: 30px;
+justify-content: center;
+padding-top: 1%;
+}
+
+.kark{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.back-end{
+background-color: yellow;
+width: 570px;
+height: 250px;
+margin-left: 1300px;
+margin-top: -13%;
+border-radius: 30px;
+padding-top: 1%;
+
+}
+
+.back{
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .services {
+    margin-left: -15px;
+    margin-top: 60%;
+    }
+    .welcome{
+      width: 460px;
+    }
+    .front-end{
+      width: 470px;
+      height: 250px;
+      margin-left: 0px;
+      margin-top: 10%;
+    }
+    .back-end{
+      width: 470px;
+      height: 250px;
+      margin-left: 0px;
+      margin-top: 10%;
+
+    }
+  }
