@@ -3,6 +3,8 @@
   justify-content: space-between;
   background-color: blue;
   border-radius: 20px;
+ 
+ 
 }
 
 .Logo{
@@ -16,14 +18,39 @@
 .tap{
   list-style-type: none;
   display: flex;
-  gap: 30px;
-  margin-right: 60px;
+  gap: 20px;
+  margin-right: 40%;
   justify-content: center;
   font-weight: bold;
   cursor: pointer;
 
 }
 
+.switch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /*
+  width: 100vw;
+  height: 100px;
+*/
+  margin-top: 20%;
+  margin-left: 80%;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(245, 245, 245);
+  align-items: center;
+}
+
+#dark{
+  background-color: black;
+}
+
+
+#light{
+background-color: beige;
+}
 .Navbar-content >ul :hover {
   color: azure;
   cursor: pointer;
@@ -33,7 +60,7 @@ span{
   color: azure;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 790px) {
 
 .Navbar-content {
   display: none;

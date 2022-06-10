@@ -59,13 +59,23 @@ textarea{
   border-color: aliceblue;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 790px) {
   
+  .c-right>form {
+    margin-left: -15%;
+   width: 100%;
+   
+  }
+  .ton{
+   
+    margin-left: -7%;
+  }
   .awesome{
     margin-top: 350%;
   }
   .contact-form{
     margin-top: 40%;
+   width: 100%;
   }
     
     }

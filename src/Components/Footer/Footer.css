@@ -28,10 +28,11 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 790px) {
   .f-content{
-    margin-top: 490px;
-    margin-left: -160px;
+    margin-top: 380px;
+    margin-left: -170px;
+    
   }
   .shazam{
     display: none;

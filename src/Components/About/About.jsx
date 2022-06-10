@@ -3,11 +3,13 @@ import './About.css'
 
 function About() {
   return (
-    <div className="about">
-      <div className="services">
-      WELCOME TO OUR AWESOME<br/> SERVICES!
-      </div>
-
+       
+       <>
+    <div className="services">
+    WELCOME TO OUR AWESOME<br/> SERVICES!
+    </div>
+       
+       <div className="about">
       <div className="welcome">
         <p>Accelerate your web and<br/> mobile app development
            with our<br/> full stack development services</p>
@@ -41,6 +43,7 @@ function About() {
 
       </div>
     </div>
+    </>
   )
 }
 

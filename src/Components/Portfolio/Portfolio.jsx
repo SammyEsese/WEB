@@ -14,15 +14,15 @@ function Portfolio() {
 
 {/*heading */}
 <div className="mpya">
-<span>Recent Projects</span>
+<span>Recent Projects</span><br/>
 <span>Portfolio</span>
 </div>
 
 {/* slide */}
 
 <Swiper
-spaceBetween={-950}
-slidePerView={3}
+spaceBetween={1}
+slidePerView={1}
 grabCursor={true}
 className='portfolio-slider' >
 

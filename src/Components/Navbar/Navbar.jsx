@@ -4,18 +4,26 @@ import {Link} from 'react-scroll'
 
 
 
+
+
+
 function Navbar() {
+
+
   return (
     <>
     <div className='First'>
   
      <div className='Logo'>Samm<span>Tech</span></div>
-    
+
 
 
 
      <div className='Navbar-content'>
        <ul className='tap'>
+
+         
+
 
        <Link spy={true} to='Navbar'  smooth={true} activeClass='activeClass'>
          <li>HOME</li>
